@@ -132,13 +132,11 @@ End Function
 
 Function FormatArray(a)
 
-	FormatArray = "("
-
 	Dim e
 	For Each e In a
-		FormatArray = FormatArray & FormatValue(TypeName(e), e) & ", "
+		FormatArray = FormatArray & ", " & FormatValue(TypeName(e), e)
 	Next
 
-	FormatArray = Left(FormatArray, Len(FormatArray) - 2) & ")"
+	FormatArray = "(" & Mid(FormatArray, 3) & ")"
 
 End Function
