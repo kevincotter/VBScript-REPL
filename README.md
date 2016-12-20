@@ -120,3 +120,7 @@ Still have some basic stuff to take care of, like line continuation. It's not so
 
 - [ ] Line continuation
 
+##Licensing##
+This project is licensed under the MIT License. In short, you're welcome to do anything you want with this code as long as you provide attribution and don't hold me liable.
+
+I hope you find it useful.
