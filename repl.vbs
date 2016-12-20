@@ -90,15 +90,15 @@ Sub ExecuteStatement(s0__)
 	r1__ = Eval(s0__)
 	e1__ = Err.Description
 
-	Dim f0
+	Dim f0__
 	If Len(e0__) > 0 Then
-		If Len(e1__) > 0 And Len(t1__) = 0 Then f0 = e0__ Else f0 = FormatValue(t1__, r1__)
+		If Len(e1__) > 0 And Len(t1__) = 0 Then f0__ = e0__ Else f0__ = FormatValue(t1__, r1__)
 	Else
-		If Len(e1__) = 0 Then If InStr(s0__, "=") = 0 Then f0 = FormatValue(t1__, r1__)
+		If Len(e1__) = 0 Then If InStr(s0__, "=") = 0 Then f0__ = FormatValue(t1__, r1__)
 	End If
 
 	' If we need to display output, do so...
-	If Len(f0) > 0 Then WScript.Echo f0
+	If Len(f0__) > 0 Then WScript.Echo f0__
 
 End Sub
 
