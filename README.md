@@ -115,3 +115,8 @@ To exit the REPL, simply type `exit`.
 >>> exit
 ```
 
+##To Do##
+Still have some basic stuff to take care of, like line continuation. It's not something I use often and, therefore, hasn't been missed yet. But it's a planned addition.
+
+- [ ] Line continuation
+
